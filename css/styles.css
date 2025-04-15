@@ -1,8 +1,8 @@
 body {
-    font-family: 'Nixie One';
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    font-weight: 300;
     line-height: 30px;
-    font-weight: medium;
     background-color: #ffffff;
     color: #17183b;
     margin: 0;
@@ -18,6 +18,7 @@ header {
 
 h1, h2 {
     font-family: 'Ephesis';
+    text-align: center;
 }
 
 h1 {
@@ -27,6 +28,10 @@ h1 {
 
 h2 {
     font-size: 35px;
+}
+
+h4 {
+    text-align: center;
 }
 
 img {
@@ -51,12 +56,18 @@ nav ul li {
 nav ul li a {
     color: #17183b;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 400;
 }
 
-section {
-    padding: 3rem;
+a {
+    color: #6290c8;
+    display: inline-block;
     text-align: center;
+    margin: 0 auto;
+}
+
+a:hover {
+    color: #cba328;
 }
 
 .about img {
@@ -71,7 +82,6 @@ section {
     flex: 1;
     line-height: 2;
 }
-
 
 .project-grid {
     display: grid;
@@ -94,6 +104,12 @@ section {
     border-radius: 5px;
 }
 
+.resume {
+    text-align: left;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 ul li {
     list-style-position: inside;
 }
@@ -106,6 +122,29 @@ button {
     cursor: pointer;
 }
 
+#contact {
+    text-align: center;
+    padding: 2rem;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* helpful if screen is small */
+    margin-top: 1rem;
+}
+
+.contact-links a {
+    padding: 10px 15px;
+    color: #6290c8;
+    font-weight: 500;
+}
+
+.contact-links a:hover {
+    color: #cba328;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
@@ -114,6 +153,11 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+section {
+    padding: 3rem;
+}
+
 
 @media (max-width: 768px) {
     nav ul {
