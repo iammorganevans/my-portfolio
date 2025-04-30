@@ -73,12 +73,12 @@ a:hover {
 .link-center {
     display: flex;
     justify-content: center;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
 }
 
 .about img {
     float: left;
-    max-width: 40%;
+    max-width: 50%;
     height: auto;
     margin-right: 20px;
     border-radius: 8px;
