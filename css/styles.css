@@ -70,6 +70,12 @@ a:hover {
     color: #cba328;
 }
 
+.link-center {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
 .about img {
     float: left;
     max-width: 40%;
@@ -93,9 +99,13 @@ a:hover {
 .project {
     background-color:#ffffff;
     border: 5px double #9f9fed;
-    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
     border-radius: 8px;
     text-align: center;
+    height: 100%;
 }
 
 .project img {
